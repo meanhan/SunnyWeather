@@ -8,7 +8,7 @@ class SunnyWeatherApplication : Application() {
 
     // companion object 伴生对象，类似于静态方法
     companion object{
-        const val TOKEN = ""
+        const val TOKEN = "0Lxx1JCF6ffTSQSc"
         @SuppressLint("StaticFieldLeak")
         lateinit var context:Context
     }
