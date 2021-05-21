@@ -14,6 +14,7 @@ object PlaceDao {
         }
     }
 
+
     fun getSavedPlace(): Place {
         val placeJson = sharedPreferences().getString("place", "")
         return Gson().fromJson(placeJson, Place::class.java)
